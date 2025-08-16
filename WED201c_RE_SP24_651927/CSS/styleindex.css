@@ -1,0 +1,180 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: orange;
+    height: 50px;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+.banner_register {
+    display: flex;
+}
+
+.img-container {
+    width: 60%;
+}
+
+.banner_register .img-container img {
+    width: 100%;
+}
+
+.form-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(236, 184, 218, 0.33);
+    width: 40%;
+}
+
+.form-register h2 {
+    color: rgba(222, 176, 138, 0.812);
+}
+
+.form-register form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-register form label {
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}
+
+.send-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.orange-button {
+    background-color: orange;
+    border: none; 
+    color: white;
+    cursor: pointer;
+}
+.send-button-container input {
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+
+.style {
+    text-align: center;
+    color: rgb(222, 176, 138);
+    margin: 30px 0;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+}
+
+.left {
+    width: 90%;
+}
+
+.images .left img {
+    width: 100%;
+}
+
+
+.right-images {
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-images img {
+    width: 32%;
+}
+
+.right p {
+    font-size: 20px;
+}
+
+.right span {
+    font-size: 20px;
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.images .BookNow-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:49% 50%;
+    gap: 10px;
+    margin: 10px;
+}
+
+.grid .item  {
+    border: 1px solid #0a0a0a;
+    display: flex;
+}
+
+.grid .item img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.grid .item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.buy-now {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(207, 147, 186, 0.33);
+}
